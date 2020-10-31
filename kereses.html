@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+  /*  color: #f5f6f7; */
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Én</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="kereses.html">Keresés</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <h2>Keresés</h2>
+  <p>Ezt a gyűjteményem:</p>                                                                                      
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Neve</th>
+        <th>Téma</th>
+        <th>Típus</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>ABC dal</td>
+        <td>ABC gyerekdal - Bíró Eszter - gyerekdalok</td>
+        <td>Videó</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='https://www.youtube.com/watch?v=Ir5rUGz5_58'" >Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Nyár dal</td>
+        <td>Ha nyár jön - Disney dal</td>
+        <td>Videó</td>
+        <td><button type="button" onclick="location.href='https://www.youtube.com/watch?v=dfoydqDcFl8'" class="btn btn-info">Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Esőtánc</td>
+        <td>Esőtánc - Kicsi Gesztenye Klub</td>
+        <td>Videó</td>
+        <td><button type="button" onclick="location.href='https://www.youtube.com/watch?v=8jLMELotGWw'" class="btn btn-info">Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Süni</td>
+        <td>Vonal összekötős gyakorlólap</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/suni-gyakorlas.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>A szorgalmas és a rest leány</td>
+        <td>Magyar népmese</td>
+        <td>Videó</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='https://www.youtube.com/watch?v=tADkcAzu_-Q'" >Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Befőttes üveg</td>
+        <td>befőttes üveg rajz órára, időeltöltő</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/befottesuveg.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Fa</td>
+        <td>Fa, időkitöltő</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/fa.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Denever</td>
+        <td>Denevér, időkitöltő</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/denever.jpeg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Tél</td>
+        <td>A hóember (Andersen mesék)</td>
+        <td>Videó</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='https://www.youtube.com/watch?v=nzTvbU4eItU'" >Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Hangya</td>
+        <td>Hangya, gyakorló alsósoknak</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/hangya-gyak.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Fa gyakorló</td>
+        <td>Fa gyakorlólap alsósoknak</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/fa-gyakorlolao.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Farsang</td>
+        <td>Farsangi motiváció / dal</td>
+        <td>Videó</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='https://www.youtube.com/watch?v=tSHEhPsEFRo'" >Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Állatok gyakorló</td>
+        <td>Állatok gyakorlólap alsósoknak</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/allatok.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Maszkabál </td>
+        <td>Maszkabál farsangi motiváció / dal</td>
+        <td>Videó</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='https://www.youtube.com/watch?v=2if-EDer_N0'" >Ugrás a videóra</button></td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Állatok időeltöltő</td>
+        <td>Állatok időeltöltő alsósoknak</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/allat2.jpg'" >Ugrás a képre</button></td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Eső</td>
+        <td>Eső gyakorlólap</td>
+        <td>Kép</td>
+        <td><button type="button" class="btn btn-info" onclick="location.href='./kepek/eso-gyakorlolap.jpg'" >Ugrás a képre</button></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
